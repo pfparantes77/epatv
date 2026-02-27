@@ -103,7 +103,7 @@ def calcular_resultados(quiz: dict):
 # -------- UI --------
 from pathlib import Path
 
-LOGO_PATH = Path(__file__).parent / "logo_epatv.png"
+LOGO_PATH = Path(__file__).parent / "Logo_epatv.png"
 
 st.set_page_config(
     page_title="Desafio de Escolha Múltipla",
@@ -331,4 +331,5 @@ if st.button("✅ Submeter"):
             st.rerun()
         else:
             st.warning(f"Errado ❌ | Tenta novamente. (Tentativa {tentativas_usadas}/3)")
+
             st.stop()
