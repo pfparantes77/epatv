@@ -106,13 +106,13 @@ from pathlib import Path
 LOGO_PATH = Path(__file__).parent / "Logo_epatv.png"
 
 st.set_page_config(
-    page_title="Desafio de Escolha Múltipla",
+    page_title="Nós conhecemos a EPATV!",
     page_icon=str(LOGO_PATH),  # substitui o emoji pelo logo
     layout="centered"
 )
 
 st.image(str(LOGO_PATH), width=300)  # mostra o logo no topo
-st.title("Desafio de Escolha Múltipla")
+st.title("Nós conhecemos a EPATV!")
 
 
 
