@@ -141,9 +141,9 @@ with col_c:
 # ✅ Nome obrigatório no início (bloqueia tudo)
 if not quiz.get("nome"):
     st.subheader("Identificação")
-    nome = st.text_input("Nome do aluno", value="", placeholder="Escreve o teu nome!")
+    nome = st.text_input("Nome escola e turma", value="", placeholder="Escreve da tua escola e turma!")
     if not nome or not nome.strip():
-        st.info("Para iniciar, escreve o teu nome.")
+        st.info("Para iniciar, escreve da tua escola e turma!.")
         st.stop()
     quiz["nome"] = nome.strip()
     quiz["start_ts"] = time.time()
