@@ -252,9 +252,9 @@ if q_id not in questions:
 if q_id in quiz["concluida"]:
     numero_assoc = questions[q_id]["numero_associado"]
     st.warning(
-        f"Essa questão já foi concluída. "
-        f"O número associado à questão {q_id} é {numero_assoc}. "
-        f"Escolhe outra."
+        f"A tua resposta está correta! "
+        f"Insere no robot o número {numero_assoc} para este avançar! "
+        f"Aguarda um novo número gerado pelo robot."
     )
     st.stop()
 
