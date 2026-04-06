@@ -253,7 +253,7 @@ if q_id in quiz["concluida"]:
     numero_assoc = questions[q_id]["numero_associado"]
     st.warning(
         f"A tua resposta está correta! "
-        f"Insere no robot o número {numero_assoc} para este avançar! "
+        f"Insere no robot o número {numero_assoc} para este avançar!\n\n "
         f"Aguarda um novo número gerado pelo robot."
     )
     st.stop()
