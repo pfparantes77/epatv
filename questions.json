@@ -95,12 +95,12 @@
   "tema": "Ensino Profissional",
   "enunciado": "E a PAP, sabes o que envolve realmente no final do curso? 👇",
   "opcoes": [
+    "Uma atividade opcional de caráter prático sem avaliação formal",
     "O desenvolvimento e apresentação de um projeto final que integra as competências adquiridas ao longo do curso",
     "Um conjunto de testes escritos realizados no final de cada módulo",
-    "Uma atividade opcional de caráter prático sem avaliação formal",
     "Um estágio adicional realizado após a conclusão da formação"
   ],
-  "correta": 0,
+  "correta": 1,
   "numero_associado": 73
 },
 {
@@ -114,7 +114,7 @@
     "Uma modalidade de ensino realizada maioritariamente à distância"
   ],
   "correta": 0,
-  "numero_associado": 29
+  "numero_associado": 28
 },
 {
   "id": 10,
@@ -238,12 +238,12 @@
   "tema": "Ensino Profissional",
   "enunciado": "Que perfil de aluno se adequa melhor ao ensino profissional? 👇",
   "opcoes": [
-    "Alunos que valorizam a aprendizagem prática e a aplicação de conhecimentos em contextos reais",
     "Alunos que preferem um percurso exclusivamente teórico e abstrato",
     "Alunos que optam por metodologias com menor exigência de participação ativa",
-    "Alunos que privilegiam apenas a aquisição de conhecimentos sem aplicação prática"
+    "Alunos que privilegiam apenas a aquisição de conhecimentos sem aplicação prática",
+    "Alunos que valorizam a aprendizagem prática e a aplicação de conhecimentos em contextos reais"
   ],
-  "correta": 0,
+  "correta": 3,
   "numero_associado": 58
 },
 {
